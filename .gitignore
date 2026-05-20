@@ -1,0 +1,16 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Google Colab / Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# EntropyShield Specific Data & Models
+# (We ignore these because they change constantly and the CSV could get huge)
+file_entropy_stream.csv
+entropyshield_model.p
+
+# OS generated files
+.DS_Store
+Thumbs.db
